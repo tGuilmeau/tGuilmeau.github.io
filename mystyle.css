@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+}
+
+header {
+    width:500px;
+    float:left;
+    position:fixed;
+    -webkit-font-smoothing:subpixel-antialiased;
+}
+
+section {
+    width:1300px;
+    float:right;
+    padding-bottom:50px;
+  }
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
