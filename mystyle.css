@@ -1,21 +1,28 @@
 body {
-    background-color: lightblue;
+  background-color: lightblue;
 }
 
 header {
-    width:500px;
-    float:left;
-    position:fixed;
-    -webkit-font-smoothing:subpixel-antialiased;
+  width:275px;
+  float:left;
 }
 
 section {
-    width:1300px;
-    float:right;
-    padding-bottom:50px;
-  }
+  width:400px;
+  margin-left: 325px;
+}
 
 h1 {
-  color: navy;
-  margin-left: 20px;
+color: navy;
+}
+
+
+@media screen and (max-width: 725px) {
+
+  header, section {
+    width:100%;
+    float:none;
+    margin-left:0px;
+  }
+
 }
