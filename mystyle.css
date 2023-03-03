@@ -1,12 +1,16 @@
 body {
-  background-color: honeydew;
+  background-color: aliceblue;
   padding:50px;
   margin:0px;
 }
 
-h2, h3, b {
-  color: darkred;
-  }
+a {
+  color: blue;
+}
+
+header, section {
+  font-size:120%;
+}
 
 
 header {
@@ -19,21 +23,32 @@ header img {
   max-width:250px;
 }
 
-section {
-  max-width:900px;
-  margin-left: 300px;
+header h1, h2, h3 {
+  color: midnightblue;
 }
 
 
+
+section {
+  max-width:900px;
+  margin-left: 300px;
+  background-color: antiquewhite;
+  padding:25px;
+}
+
+section h1, h2, h3 {
+  color: darkred;
+}
 
 
 @media screen and (max-width: 700px) {
 
   header, section {
-    width:100%;
+    width:auto;
     float:none;
     margin-left:0px;
     position:static;
+    font-size:100%;
   }
 
 }
