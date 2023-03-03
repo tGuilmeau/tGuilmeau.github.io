@@ -1,8 +1,13 @@
 body {
-  background-color: lightblue;
+  background-color: honeydew;
   padding:50px;
   margin:0px;
 }
+
+h2, h3, b {
+  color: darkred;
+  }
+
 
 header {
   width:250px;
@@ -19,9 +24,7 @@ section {
   margin-left: 300px;
 }
 
-h1 {
-color: navy;
-}
+
 
 
 @media screen and (max-width: 700px) {
