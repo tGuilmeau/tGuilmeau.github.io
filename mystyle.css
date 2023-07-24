@@ -47,5 +47,8 @@ section h1, h2, h3 {
     position:static;
     font-size:100%;
   }
+  header {
+    text-align: center;
+  }
 
 }
