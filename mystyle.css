@@ -1,15 +1,16 @@
 body {
-  background-color:#FEF8EC;
- 
+  background-color:#68BBF3;
+  color:black;
 }
 
+
 a {
-  color:#C7421A;
-  text-decoration:none;
+  color:black;
+  text-decoration:underline;
 }
 
 a:hover{
-  text-decoration:underline;
+  text-decoration:underline double;
 }
 
 nav a {
@@ -18,11 +19,11 @@ nav a {
 }
 
 nav a.active{
-  background-color: #FEE0AE;
+  background-color: #B4DDF9;
 }
 
 h1, h2, h3 {
-  color:#883050;
+  color:black;
 }
 
 header {
@@ -42,7 +43,7 @@ img {
 
 section {
   max-width:900px;
-  background-color:#FEE0AE;
+  background-color:#B4DDF9;
   padding:25px;
   margin-left: auto;
   margin-right: auto;
