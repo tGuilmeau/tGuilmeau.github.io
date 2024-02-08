@@ -1,11 +1,12 @@
 body {
-  background-color:#68BBF3;
-  color:black;
+  /* background-color:#68BBF3; */
+  background-color:#B5E48C;
+  color:#184E77;
 }
 
 
 a {
-  color:black;
+  color:#184E77;
   text-decoration:underline;
 }
 
@@ -19,11 +20,12 @@ nav a {
 }
 
 nav a.active{
-  background-color: #B4DDF9;
+  /* background-color: #B4DDF9; */
+  background-color: #F7FFDD;
 }
 
 h1, h2, h3 {
-  color:black;
+  color:#184E77;
 }
 
 header {
@@ -43,7 +45,8 @@ img {
 
 section {
   max-width:900px;
-  background-color:#B4DDF9;
+  /* background-color:#B4DDF9; */
+  background-color: #F7FFDD;
   padding:25px;
   margin-left: auto;
   margin-right: auto;
