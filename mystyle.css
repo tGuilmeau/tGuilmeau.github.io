@@ -1,5 +1,6 @@
 body {
-  background-color:#B5E48C;
+  /* background-color:#B5E48C; */
+  background-color: #F8D68B;
   color:black;
 }
 
@@ -19,7 +20,8 @@ nav a {
 }
 
 nav a.active{
-  background-color: #F7FFDD;
+  /* background-color: #F7FFDD; */
+  background-color:#FCEAC5;
 }
 
 h1, h2, h3 {
@@ -43,7 +45,7 @@ img {
 
 section {
   max-width:900px;
-  background-color: #F7FFDD;
+  background-color:#FCEAC5;
   padding:25px;
   margin-left: auto;
   margin-right: auto;
