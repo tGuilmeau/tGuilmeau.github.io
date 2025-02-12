@@ -1,12 +1,19 @@
+
+:root {
+  --textColor:  black; 
+  --outerColor: #AFD2FD; 
+  --innerColor: #D7E9FE; 
+}
+
+
 body {
-  /* background-color:#B5E48C; */
-  background-color: #F8D68B;
-  color:black;
+  background-color:var(--outerColor);
+  color:var(--textColor);
 }
 
 
 a {
-  color:black;
+  color:var(--textColor);
   text-decoration:underline;
 }
 
@@ -20,12 +27,11 @@ nav a {
 }
 
 nav a.active{
-  /* background-color: #F7FFDD; */
-  background-color:#FCEAC5;
+  background-color:var(--innerColor);
 }
 
 h1, h2, h3 {
-  color:black;
+  color:var(--textColor);
 }
 
 header {
@@ -45,7 +51,7 @@ img {
 
 section {
   max-width:900px;
-  background-color:#FCEAC5;
+  background-color:var(--innerColor);
   padding:25px;
   margin-left: auto;
   margin-right: auto;
