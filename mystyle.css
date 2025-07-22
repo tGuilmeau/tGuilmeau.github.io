@@ -1,14 +1,18 @@
 
 :root {
-  --textColor:  black; 
-  --outerColor: #AFD2FD; 
-  --innerColor: #D7E9FE; 
+  --textColor:  black;
+  --outerColor: #E7DBC5;
+  --innerColor: #F3EDE2;
+  /* --outerColor: #AFD2FD; 
+  --innerColor: #D7E9FE;  */
 }
 
 
 body {
   background-color:var(--outerColor);
   color:var(--textColor);
+  background-image: url(tiling.png);
+  background-repeat: repeat; 
 }
 
 
